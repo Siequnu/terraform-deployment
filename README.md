@@ -1,6 +1,6 @@
 # AWS Terraform deployment
 
-Terraform script handle the creation of a basic AWS superstructure, including VPC, Internet Gateway, NAT, subnets, key-pair definitions, VPN config, VPN endpoint file creation, security groups, EC2 instances, EKS, ECR, S3 bucket, billing monitors, and enabling flow-logs.
+Terraform script to handle the creation of a basic AWS superstructure, including VPC, Internet Gateway, NAT, subnets, key-pair definitions, VPN config, VPN endpoint file creation, security groups, EC2 instances, EKS, ECR, S3 bucket, billing monitors, and enabling flow-logs.
 
 ## Setup
 
