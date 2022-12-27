@@ -1,0 +1,33 @@
+// Subscriber email address (for billing alerts)
+variable "SUBSCRIBER_EMAIL_ADDRESS" {
+  default = ""
+}
+
+// Key and password configs
+variable "PUBLIC_KEY_PATH" {
+  default = "~/.ssh/id_rsa.pub"
+}
+
+variable "AWS_ACCESS_KEY" {
+  default = ""
+}
+
+variable "AWS_SECRET_KEY" {
+  default = ""
+}
+
+variable "AWS_REGION" {
+  default = "ap-southeast-1"
+}
+
+// AWS Machine Configs
+variable "AWS_AMI" {
+  default = "ami-07651f0c4c315a529" // Ubuntu 22.04 x64
+}
+variable "AWS_INSTANCE_TYPE" {
+  default = "t3.xlarge"
+}
+
+variable "EFS_FS_CREATION_TOKEN" {
+  default = "fs-19sh4j9ak3l1j"
+}
